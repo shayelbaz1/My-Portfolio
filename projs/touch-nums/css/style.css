@@ -1,0 +1,112 @@
+body {
+    background-image: url("../images/bg.png");
+    background-color: #1F74AD;
+}
+
+h1 {
+    color: honeydew;
+}
+
+.clicked {
+    background-color: rgba(54, 245, 48, 0.68);
+    color: whitesmoke;
+}
+
+.btn {
+    width: 50px;
+    height: 50px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    border-radius: 20%;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+}
+
+.wrong {
+    background-color: rgba(232, 226, 68, 0.687);
+    transition: .3s;
+    /* opacity: 1; */
+}
+
+.box {
+    font-family: fantasy;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 20%;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+}
+
+.center {
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+}
+
+.timers {
+    color: honeydew;
+}
+
+.boxNum {
+    margin: 10px;
+    border: solid rgba(245, 245, 245, 0.557) 1px;
+    border-radius: 10%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 1px 30px; */
+}
+
+.boxTimer {
+    margin: 10px;
+    border: solid rgba(245, 245, 245, 0.557) 1px;
+    border-radius: 10%;
+    height: 50px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    line-height: 100%;
+}
+
+.button3 {
+    width: 150px;
+    height: 70px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 0.3em 1.2em;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 1em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #FFFFFF;
+    background-color: #4eb5f1;
+    text-align: center;
+    transition: all 0.2s;
+    box-shadow: 0px 10px 14px -7px #276873;
+    text-shadow: 0px 1px 0px #3d768a;
+}
+
+.button3:hover {
+    background-color: #4095c6;
+}
+
+@media all and (max-width:30em) {
+    .button3 {
+        display: block;
+        margin: 0.2em auto;
+    }
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Touch the Numbers
+    </title>
+</head>
+
+<body onload="init(4)">
+    <div class="container">
+        <div class="box">
+            <h1 class="row title">Touch the nums</h1>
+            <div class="row">
+                <button class="easy button3" onclick="init(16)">Easy<br>16</button>
+                <button class="hard button3" onclick="init(25)">Hard<br>25</button>
+                <button class="extreme button3" onclick="init(36)">Extreme<br>36</button>
+            </div>
+            <div class="row timers">
+                <div class="boxNum">
+                    <h2 class="nextNum"></h2>
+                </div>
+                <div class="boxTimer">
+                    <h2 class="timer">00:00:00</h2>
+                </div>
+
+            </div>
+            <div class="row">
+                <table>
+                    <tbody class="board">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="js/util.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+
+
+</html>
