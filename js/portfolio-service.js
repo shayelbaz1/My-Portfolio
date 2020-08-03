@@ -4,6 +4,33 @@ var gProj;
 
 gProj = [
     {
+        id: 'partytime',
+        name: 'Party Time',
+        title: 'The ultimate nightlife app',
+        des: 'Final Full-stack project, Market place for parties events. people can search events in their own location radius, upload events, edit the event, like, share to whatsapp, navigate using google, add to google calender, different chat room on every event page, and add reviews. Used Vue.js, Vuex, MongoDB. Java Script',
+        url: 'https://partytimes.herokuapp.com',
+        git: 'https://github.com/shayelbaz1/',
+        date: 'Jul 2020',
+    },
+    {
+        id: 'memegen',
+        name: 'Meme Gen',
+        title: 'Your best meme creator',
+        des: 'In this project I had to create a Meme generator, the user can edit text, upload image and share to facebook. Used Vue.js',
+        url: 'https://shayelbaz1.github.io/meme-gen/',
+        git: 'https://github.com/shayelbaz1/meme-gen',
+        date: 'Jul 2020',
+    },
+    {
+        id: 'appsus',
+        name: 'App Sus',
+        title: 'Notes, Mail and Books in 1 App',
+        des: 'Notes, Email and Book-store in 1 app. in this app the user can create notes, send fake mails, and search real books. Used Vuex, Vue.js, Google Api',
+        url: 'https://shayelbaz1.github.io/appsus/#/',
+        git: 'https://github.com/shayelbaz1/appsus',
+        date: 'Jul 2020',
+    },
+    {
         id: 'mine-sweeper',
         name: 'Mine-Sweeper',
         title: 'find those mines',
